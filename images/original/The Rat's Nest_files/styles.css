@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+}
+
+.call-to-action {}
+
+.call-to-action__box {
+    background-color: #3882f6;
+}
+
+.call-to-action__button {
+    background-color: #3882f6;
+}
+
+.call-to-action__heading {}
+
+.call-to-action__subtext {}
+
+.content {}
+
+.footer {
+    background-color: #1f2937;
+}
+
+.footer__text {}
+
+.gallery {}
+
+.gallery__caption {}
+
+.gallery__heading {
+    color: #1f2937;
+    font-size: 3.6rem;
+    font-weight: 800;
+}
+
+.gallery__image {}
+
+.gallery__item {}
+
+.gallery__items {}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 3.6em;
+}
+
+.hero {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin-bottom: 3.6em;
+}
+
+.hero__button {
+    background-color: #3882f6;
+}
+
+.hero__content {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.hero__heading {
+    color: #f9faf8;
+    font-size: 4.8rem;
+    font-weight: 800;
+}
+
+.hero__image {
+    align-self: center;
+    min-height: 150px;
+    min-width: 300px;
+    flex-shrink: 0;
+}
+
+.hero__subtext {
+    color: #e5e7eb;
+    font-size: 1.8rem;
+}
+
+.nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.nav__item {}
+
+.nav__link {
+    color: #e5e7eb;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.nav__list {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 2em;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav__logo {
+    color: #f9faf8;
+    font-size: 2.4rem;
+    text-decoration: none;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote__source {
+    color: #1f2937;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.quote__text {
+    color: #1f2937;
+    font-size: 3.6rem;
+    font-style: italic;
+    font-weight: 300;
+}
